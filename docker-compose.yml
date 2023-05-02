@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  sobh:
+    image: sobh
+    build:
+      context: .
+      dockerfile: ./Dockerfile
